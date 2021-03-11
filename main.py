@@ -6,7 +6,7 @@ from datetime import datetime
 import win32api
 
 def addValues(spans):
-    with open('tabela_crash', 'w', newline='') as file:    
+    with open('tabela_crash', 'a', newline='') as file:    
         writer = csv.writer(file)
 
         for span in spans[15:]:

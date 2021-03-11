@@ -1,9 +1,6 @@
-import requests
-import pandas as pd
 from selenium import webdriver
 from bs4 import BeautifulSoup
 from selenium.webdriver.chrome.options import Options
-from time import sleep
 import csv
 from datetime import datetime
 import win32api
